@@ -1,0 +1,21 @@
+{{template "base" .}} 
+
+{{define "title"}}About{{end}}
+
+{{define "content"}}
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div><a href='/'>Home</a></div>
+				<h1>This is about page</h1>
+				<p>This data comes from handler: {{index .StringMap "test"}}</p>
+				<p>
+				{{if ne (index .StringMap "remote_ip") ""}}
+				Remote IP comes from SESSION: {{index .StringMap "remote_ip"}}</p>
+				{{else}}
+				I don't know your IP address. Visit the <a href='/'>Home page</a> to set it.
+				{{end}}
+			</div>
+		</div>
+	</div>
+{{end}}
