@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/emrahyurtlu/go-course/cmd/pkg/config"
-	"github.com/emrahyurtlu/go-course/cmd/pkg/models"
+	"github.com/emrahyurtlu/golang-bookings/cmd/pkg/config"
+	"github.com/emrahyurtlu/golang-bookings/cmd/pkg/models"
 )
 
 var functions = template.FuncMap{

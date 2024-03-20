@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/emrahyurtlu/go-course/cmd/pkg/config"
-	"github.com/emrahyurtlu/go-course/cmd/pkg/handlers"
-	"github.com/emrahyurtlu/go-course/cmd/pkg/render"
+	"github.com/emrahyurtlu/golang-bookings/cmd/pkg/config"
+	"github.com/emrahyurtlu/golang-bookings/cmd/pkg/handlers"
+	"github.com/emrahyurtlu/golang-bookings/cmd/pkg/render"
 )
 
 const portNumber string = ":8090"
